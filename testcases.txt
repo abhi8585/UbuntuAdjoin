@@ -1,0 +1,9 @@
+#check adinfo after logging in the container
+#system properly visible in the ACDU computers section
+#system add suitably to the right zone
+#must leave the domain after adleave.
+#system not visible on AD after adleave
+#on stopping the container the system must leave the domain.
+#after stopping the container the system should not visible in the ACDU computers section.
+#on restarting the container the system should automatically join the domain on the basis of configurations in the run command.
+#adleave.service is working fine within the container.

@@ -1,0 +1,17 @@
+#krb5 file in same directory
+#centrify repo key
+#/init
+#default resolve.conf
+#could not resolve host
+#we need to resolve and configure the bridge network which is fixing the domain ip in dns options.
+#remove unnecessary comments and echo from script.
+#update pasword code in if condition if password is given.
+#need to start the docker service with docker service restart when the search domain shows local in resol.conf
+#change file name
+#ask about what is enable my feature option
+
+
+Notes:-
+
+daemon.json must cannot contain any entry for dns key if the file exsits.
+docker not reading the file from temp.
